@@ -1,0 +1,14 @@
+{
+  "extends": "ts-config-single-spa",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "declarationDir": "dist",
+    "target": "es6",
+    "module": "commonjs",
+    "lib": ["es5", "es6", "es7"]
+  },
+
+  "include": ["src/**/*"],
+  "exclude": ["src/**/*.test*"],
+  "typeAcquisition": { "enable": true }
+}
